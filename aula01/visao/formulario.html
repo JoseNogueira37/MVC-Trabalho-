@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>MVC</title>
+</head>
+
+<body>
+    <h1 class="text-center">Olá, me diga seu nome e o animal que você mais gosta!</h1>
+
+    <div class="conteiner">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-6 col-md-4">
+                <form id="form">
+                    <div class="form-group">
+                        <label for="nome">Digite seu nome</label>
+                        <input type="text" name="nome" id="nome" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="animal">Selecione o animal que você mais gosta</label>
+                        <select name="animal" id="animal" class="form-control">
+                            <option value="" >Selecione...</option>
+                            <option value="1">Cachorro</option>
+                            <option value="2">Gato</option>
+                            <option value="3">Peixe</option>
+                        </select>
+                    </div>
+                    <div class="form-group row justify-content-end">
+                        <div class="col-12 col-sm-8 col-md-6">
+                            <button type="button" class="btn btn-outline-danger btn-block btn-send">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row justify-content-center" id="retorno">
+
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="../controle/function.js"></script>
+</body>
+
+</html>
